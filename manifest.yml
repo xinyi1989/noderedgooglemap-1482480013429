@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: noderedgooglemap
+  host: noderedgooglemap
+  disk_quota: 1024M
+  services:
+  - noderedgooglemap-cloudantNoSQLDB
+  - noderedgooglemap-iotf-service
